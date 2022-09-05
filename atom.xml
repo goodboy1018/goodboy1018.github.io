@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-05T05:05:17.529Z</updated>
+  <updated>2022-09-05T03:02:38.467Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>技术随想</title>
-    <link href="http://example.com/posts/1014.html"/>
-    <id>http://example.com/posts/1014.html</id>
-    <published>2022-09-05T04:50:33.000Z</published>
-    <updated>2022-09-05T05:05:17.529Z</updated>
-    
-    <content type="html"><![CDATA[<p>我是技术随想</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;我是技术随想&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -54,25 +33,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Redis的持久化</title>
-    <link href="http://example.com/posts/195f683a.html"/>
-    <id>http://example.com/posts/195f683a.html</id>
-    <published>2022-09-02T07:48:12.000Z</published>
-    <updated>2022-09-05T05:12:52.578Z</updated>
-    
-    
-    
-    
-    <category term="DataBase" scheme="http://example.com/categories/DataBase/"/>
-    
-    <category term="Redis" scheme="http://example.com/categories/DataBase/Redis/"/>
-    
-    
-    <category term="Redis" scheme="http://example.com/tags/Redis/"/>
     
   </entry>
   
