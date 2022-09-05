@@ -57,4 +57,23 @@
     
   </entry>
   
+  <entry>
+    <title>Redis的持久化</title>
+    <link href="http://example.com/posts/195f683a.html"/>
+    <id>http://example.com/posts/195f683a.html</id>
+    <published>2022-09-02T07:48:12.000Z</published>
+    <updated>2022-09-05T05:12:52.578Z</updated>
+    
+    
+    
+    
+    <category term="DataBase" scheme="http://example.com/categories/DataBase/"/>
+    
+    <category term="Redis" scheme="http://example.com/categories/DataBase/Redis/"/>
+    
+    
+    <category term="Redis" scheme="http://example.com/tags/Redis/"/>
+    
+  </entry>
+  
 </feed>
