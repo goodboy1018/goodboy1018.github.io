@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-05T10:43:06.083Z</updated>
+  <updated>2022-09-05T07:45:32.931Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,23 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>代码演示</title>
-    <link href="http://example.com/posts/0.html"/>
-    <id>http://example.com/posts/0.html</id>
-    <published>2022-09-05T05:59:12.000Z</published>
-    <updated>2022-09-05T10:43:06.083Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;hello world&quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p><a href="https://negnnengblog-1313740827.cos.ap-guangzhou.myqcloud.com/inage/202209051842692.png">https://negnnengblog-1313740827.cos.ap-guangzhou.myqcloud.com/inage/202209051842692.png</a></p>]]></content>
-    
-    
-    <summary type="html">代码块的演示</summary>
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Spirng源码</title>
@@ -44,6 +27,23 @@
     
     
     <summary type="html">Spring源码详解</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>代码演示</title>
+    <link href="http://example.com/posts/0.html"/>
+    <id>http://example.com/posts/0.html</id>
+    <published>2022-09-05T05:59:12.000Z</published>
+    <updated>2022-09-05T10:46:02.701Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SpringBoot自动装配"><a href="#SpringBoot自动装配" class="headerlink" title="SpringBoot自动装配"></a>SpringBoot自动装配</h1><pre><code>   自动装配的实现就是为了从Spring.factories文件中获取到对应的bean对象，并且由spring容器来帮我们管理</code></pre><h3 id="SpringBootApplication"><a href="#SpringBootApplication" class="headerlink" title="@SpringBootApplication"></a>@SpringBootApplication</h3><p>​        @SpringBootConfiguration      :声明当前类为一个配置类</p><p>​                  @configuration</p><p>​        @EnableAutoConfiguratuin</p><p>​                  @Import(AutoConfigurationImportSelector.class):导入AutoConfigurationImportSelector这个类</p><p>​                                     AutoConfigurationImportSelector.class:  String[] selectImports方法</p><p><img src="https://negnnengblog-1313740827.cos.ap-guangzhou.myqcloud.com/inage/202209051845360.png" alt="image-20220825205224966"></p><p>​                                                    getAutoConfigurationEntry()方法:</p><p>!<img src="https://negnnengblog-1313740827.cos.ap-guangzhou.myqcloud.com/inage/202209051845361.png" alt="image-20220825205353530"></p><p>​                                                                        getCandateConfigurations()方法:</p><p><img src="https://negnnengblog-1313740827.cos.ap-guangzhou.myqcloud.com/inage/202209051845362.png" alt="image-20220825205602358"></p><h1 id="SpringBoot-Starter-的工作原理是什么"><a href="#SpringBoot-Starter-的工作原理是什么" class="headerlink" title="SpringBoot Starter 的工作原理是什么?"></a>SpringBoot Starter 的工作原理是什么?</h1><p>SpringBoot 在启动的时候会干这几种事情:</p><p>​                 1.SpringBoot在启动时会去依赖的Starter包中寻找resources/META-INF/spring.factories文件,然后根据文件中配置的jar包</p><p>​      去扫描项目所依赖的jar包</p><p>​                 2.根据spring.factories配置加载AutoConfigure类</p><p>​                3.根据@Conditional注解的条件,进行自动配置并将Bean注入Spring Context</p><p>   总结一下，其实就是SpringBoot在启动的时候，按照约定去读取SpringBoot Starter的配置信息,再根据配置信息对资源进行初始化,并注入到Spring容器中.这样SpringBoot启动完毕后，就已经准备好了一切资源，使用过程中直接注入对应bean资源即可.</p>]]></content>
+    
+    
+    <summary type="html">代码块的演示</summary>
     
     
     
