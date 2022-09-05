@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>技术随想</title>
+      <link href="/posts/1014.html"/>
+      <url>/posts/1014.html</url>
+      
+        <content type="html"><![CDATA[<p>我是技术随想</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156.html"/>
       <url>/posts/4a17b156.html</url>
@@ -17,6 +30,17 @@
     
   
   
+    
+    
+    <entry>
+      <title>我是abc页面</title>
+      <link href="/abc.html"/>
+      <url>/abc.html</url>
+      
+        <content type="html"><![CDATA[<p>我是abc页面</p>]]></content>
+      
+    </entry>
+    
     
     
     <entry>
